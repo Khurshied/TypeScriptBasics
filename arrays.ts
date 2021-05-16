@@ -10,7 +10,7 @@ const myCar = carMakers.pop();
 
 // prevent incompatible values
 // this statement will throw an error
-carMakers.push(100);
+carMakers.push('Ahmad');
 
 // help with map
 carMakers.map((car:string):string =>
